@@ -8,7 +8,7 @@ client.on('ready', () => {
 client.on('message', message => {
     if (message.content === '?Test') {
     	message.reply('Reply Test');
-        }if (message.content === '?Tet') {
+       (message.content === '?Tet') {
     	message.reply('Reply Tst');
   	}
 });
